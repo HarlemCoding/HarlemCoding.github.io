@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+* {
+    font-family: 'Work Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+	font-family: "Alegreya SC";
+}
+
+/* Python info divided into four boxes 
+.four_box_info {
+  width: 100%;
+  height: 300px;
+  background-color: #0006;
+}
+
+.four_box_info section{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 26px 0;
+  font-size: 36px;
+  padding-top: 10vh;
+  color: lightblue;
+  text-align: center;
+} */
+
+
+/* Beginning of heading video */
+.fullscreen {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.fullscreen_video {
+    min-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    height: 800px;
+}
+
+.video_overlay_text {
+    position: absolute;
+    text-align: center;
+    font-size: 4em;
+    z-index: 9999;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* End of heading video */
+
+
+/* FIRST Menu Bar option (gray background) */
+.menu-bar {
+  width: 100%;
+  background-color: #5559;
+  overflow: auto;
+}
+.menu-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 26px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 26px;
+  text-decoration:none;
+  font-family: 'Work Sans', sans-serif;
+}
+.menu-bar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #7E57C2
+}
+/* Menu Bar */
+
+
+
+/*Parallax FAQ*/
+.mb_parallax_container_faq{
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  padding-top: 10vh;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.mb_parallax_overlay_faq_larger {
+  height: 60vh;
+  width: 60vw;
+  margin: auto;
+}
+
+.mb_parallax_overlay_faq {
+  height: 30vh;
+  width: 60vw;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+/*Parallax Index */
+.mb_parallax_container {
+  height: 69vh;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  padding-top: 20vh;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #005;
+}
+
+.mb_parallax_overlay {
+  height: 30vh;
+  width: 60vw;
+  text-align: center;
+  margin: auto;
+}
+
+#mb_parallax_one {
+  background-image: url(child_hand_on_keyboard.jpg);
+}
+
+#mb_parallax_two {
+  background-image: url(1.jpg);
+}
+
+#mb_parallax_three {
+  background-image: url();
+}
+
+
+
+
+h1 {
+  /* WebKit (Safari/Chrome) Only */
+  -webkit-text-stroke: 1px black;
+  
+  /* If we weren't using text-shadow, we'd set a fallback color
+     and use this to set color instead
+    -webkit-text-fill-color: white; */
+  
+  color: white;
+  
+  text-shadow:
+    3px 3px 0 #000,
+    /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+    font-size: 33px
+}

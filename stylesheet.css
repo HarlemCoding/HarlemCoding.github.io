@@ -115,7 +115,7 @@
 
 /*Parallax Index */
 .mb_parallax_container {
-  height: 69vh;
+  height: 80vh;
   width: 100vw;
   border-bottom: 1px solid black;
   padding-top: 20vh;
@@ -126,7 +126,7 @@
 }
 
 .mb_parallax_overlay {
-  height: 30vh;
+  height: 100vh;
   width: 60vw;
   text-align: center;
   margin: auto;
